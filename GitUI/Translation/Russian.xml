@@ -1,164 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Translation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <translationCategories>
-    <TranslationCategory Name="FindAndReplaceForm">
+    <TranslationCategory Name="FormCommit">
       <translationItems>
-        <TranslationItem Name="$this" Property="Text">
-          <Value>Поиск и замена</Value>
+        <TranslationItem Name="deleteFileToolStripMenuItem" Property="Text">
+          <Value>Удалить файл</Value>
         </TranslationItem>
-        <TranslationItem Name="label1" Property="Text">
-          <Value>Что найти:</Value>
+        <TranslationItem Name="workingToolStripMenuItem" Property="Text">
+          <Value>Изменения в рабочей директориии</Value>
         </TranslationItem>
-        <TranslationItem Name="lblReplaceWith" Property="Text">
-          <Value>Заменить на:</Value>
+        <TranslationItem Name="deleteSelectedFilesToolStripMenuItem" Property="Text">
+          <Value>Удалить выбранные файлы</Value>
         </TranslationItem>
-        <TranslationItem Name="btnFindNext" Property="Text">
-          <Value>Найти следующий</Value>
+        <TranslationItem Name="resetSelectedFilesToolStripMenuItem" Property="Text">
+          <Value>Сбросить выбранные файлы</Value>
         </TranslationItem>
-        <TranslationItem Name="btnReplace" Property="Text">
-          <Value>Заменить</Value>
+        <TranslationItem Name="openToolStripMenuItem" Property="Text">
+          <Value>Открыть</Value>
         </TranslationItem>
-        <TranslationItem Name="btnReplaceAll" Property="Text">
-          <Value>Заменить все</Value>
+        <TranslationItem Name="openWithToolStripMenuItem" Property="Text">
+          <Value>Открыть с помощью</Value>
         </TranslationItem>
-        <TranslationItem Name="chkMatchWholeWord" Property="Text">
-          <Value>Слово целиком</Value>
+        <TranslationItem Name="filenameToClipboardToolStripMenuItem" Property="Text">
+          <Value>Имя файла в буфер обмена</Value>
         </TranslationItem>
-        <TranslationItem Name="chkMatchCase" Property="Text">
-          <Value>Учитывать регистр</Value>
+        <TranslationItem Name="editFileToolStripMenuItem" Property="Text">
+          <Value>Редактировать файл</Value>
         </TranslationItem>
-        <TranslationItem Name="btnHighlightAll" Property="Text">
-          <Value>Найти и подсветить все</Value>
+        <TranslationItem Name="_alsoDeleteUntrackedFiles" Property="Text">
+          <Value>Хотите также удалить созданные файлы, которые находятся в выделении ?
+
+Выберите 'Нет' чтобы оставить все новые файлы.</Value>
         </TranslationItem>
-        <TranslationItem Name="btnCancel" Property="Text">
-          <Value>Отмена</Value>
+        <TranslationItem Name="_deleteFailed" Property="Text">
+          <Value>Удаление файла не удалось</Value>
         </TranslationItem>
-        <TranslationItem Name="btnFindPrevious" Property="Text">
-          <Value>Предыдущий</Value>
-        </TranslationItem>
-      </translationItems>
-    </TranslationCategory>
-    <TranslationCategory Name="FormSettings">
-      <translationItems>
-        <TranslationItem Name="GlobalSettingsPage" Property="Text">
-          <Value>Глобальные настройки</Value>
-        </TranslationItem>
-        <TranslationItem Name="label3" Property="Text">
-          <Value>Имя пользователя
-</Value>
-        </TranslationItem>
-        <TranslationItem Name="label4" Property="Text">
-          <Value>Электронная почта
-</Value>
-        </TranslationItem>
-        <TranslationItem Name="label5" Property="Text">
-          <Value>Редактор</Value>
-        </TranslationItem>
-        <TranslationItem Name="label6" Property="Text">
-          <Value>Редактор</Value>
-        </TranslationItem>
-        <TranslationItem Name="Rescan" Property="Text">
-          <Value>Сохранить и пересканировать</Value>
-        </TranslationItem>
-        <TranslationItem Name="BrowseGitPath" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="label13" Property="Text">
-          <Value>Команда для вызова git (git.cmd или git.exe)</Value>
-        </TranslationItem>
-        <TranslationItem Name="BrowseGitBinPath" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="PlinkBrowse" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="PageantBrowse" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="PuttygenBrowse" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="OtherSshBrowse" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="EncodingLabel" Property="Text">
-          <Value>Кодировка</Value>
-        </TranslationItem>
-        <TranslationItem Name="AppearancePage" Property="Text">
-          <Value>Внешний вид</Value>
-        </TranslationItem>
-        <TranslationItem Name="groupBox4" Property="Text">
-          <Value>Граф ревизий</Value>
-        </TranslationItem>
-        <TranslationItem Name="label47" Property="Text">
-          <Value>дни</Value>
-        </TranslationItem>
-        <TranslationItem Name="label46" Property="Text">
-          <Value>Кешировать картинки</Value>
-        </TranslationItem>
-        <TranslationItem Name="groupBox8" Property="Text">
-          <Value>Окружение</Value>
-        </TranslationItem>
-        <TranslationItem Name="otherHomeBrowse" Property="Text">
-          <Value>Обзор</Value>
-        </TranslationItem>
-        <TranslationItem Name="BranchBorders" Property="Text">
-          <Value>Рисовать границы веток</Value>
-        </TranslationItem>
-        <TranslationItem Name="scriptsTab" Property="Text">
-          <Value>Скрипты</Value>
-        </TranslationItem>
-        <TranslationItem Name="argumentsLabel" Property="Text">
-          <Value>Аргументы:</Value>
-        </TranslationItem>
-        <TranslationItem Name="saveScriptButton" Property="Text">
-          <Value>Сохранить</Value>
-        </TranslationItem>
-        <TranslationItem Name="removeScriptButton" Property="Text">
+        <TranslationItem Name="_deleteSelectedFilesCaption" Property="Text">
           <Value>Удалить</Value>
-        </TranslationItem>
-        <TranslationItem Name="editScriptButton" Property="Text">
-          <Value>Редактировать</Value>
-        </TranslationItem>
-        <TranslationItem Name="addScriptButton" Property="Text">
-          <Value>Добавить</Value>
-        </TranslationItem>
-        <TranslationItem Name="columnHeader3" Property="Text">
-          <Value>Команда</Value>
-        </TranslationItem>
-        <TranslationItem Name="columnHeader4" Property="Text">
-          <Value>Аргументы</Value>
-        </TranslationItem>
-        <TranslationItem Name="columnHeader5" Property="Text">
-          <Value>Конекстное меню</Value>
-        </TranslationItem>
-      </translationItems>
-    </TranslationCategory>
-    <TranslationCategory Name="FormVerify">
-      <translationItems>
-        <TranslationItem Name="$this" Property="Text">
-          <Value>Проверить базу</Value>
-        </TranslationItem>
-        <TranslationItem Name="SaveObjects" Property="Text">
-          <Value>Сохранить обьекты в .git/lost-found</Value>
-        </TranslationItem>
-        <TranslationItem Name="label1" Property="Text">
-          <Value>Клацните два раза по строке содержащей хеш sha1 для того чтобы просмотреть оьбект</Value>
-        </TranslationItem>
-        <TranslationItem Name="Remove" Property="Text">
-          <Value>Удалить все высящие объекты</Value>
-        </TranslationItem>
-        <TranslationItem Name="TagSelectedObject" Property="Text">
-          <Value>Пометить выбранный обюект</Value>
-        </TranslationItem>
-        <TranslationItem Name="ViewObject" Property="Text">
-          <Value>Просмотреть выбранный обьект</Value>
-        </TranslationItem>
-        <TranslationItem Name="TagAllObjects" Property="Text">
-          <Value>Пометить все потерянные обьекты</Value>
-        </TranslationItem>
-        <TranslationItem Name="DeleteAllLostAndFoundTags" Property="Text">
-          <Value>Удалить все метки LOST_AND_FOUND</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
@@ -355,34 +233,171 @@
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
+    <TranslationCategory Name="FindAndReplaceForm">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Поиск и замена</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Что найти:</Value>
+        </TranslationItem>
+        <TranslationItem Name="lblReplaceWith" Property="Text">
+          <Value>Заменить на:</Value>
+        </TranslationItem>
+        <TranslationItem Name="btnFindNext" Property="Text">
+          <Value>Найти следующий</Value>
+        </TranslationItem>
+        <TranslationItem Name="btnReplace" Property="Text">
+          <Value>Заменить</Value>
+        </TranslationItem>
+        <TranslationItem Name="btnReplaceAll" Property="Text">
+          <Value>Заменить все</Value>
+        </TranslationItem>
+        <TranslationItem Name="chkMatchWholeWord" Property="Text">
+          <Value>Слово целиком</Value>
+        </TranslationItem>
+        <TranslationItem Name="chkMatchCase" Property="Text">
+          <Value>Учитывать регистр</Value>
+        </TranslationItem>
+        <TranslationItem Name="btnHighlightAll" Property="Text">
+          <Value>Найти и подсветить все</Value>
+        </TranslationItem>
+        <TranslationItem Name="btnCancel" Property="Text">
+          <Value>Отмена</Value>
+        </TranslationItem>
+        <TranslationItem Name="btnFindPrevious" Property="Text">
+          <Value>Предыдущий</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
+    <TranslationCategory Name="FormSettings">
+      <translationItems>
+        <TranslationItem Name="GlobalSettingsPage" Property="Text">
+          <Value>Глобальные настройки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label3" Property="Text">
+          <Value>Имя пользователя
+</Value>
+        </TranslationItem>
+        <TranslationItem Name="label4" Property="Text">
+          <Value>Электронная почта
+</Value>
+        </TranslationItem>
+        <TranslationItem Name="label5" Property="Text">
+          <Value>Редактор</Value>
+        </TranslationItem>
+        <TranslationItem Name="label6" Property="Text">
+          <Value>Редактор</Value>
+        </TranslationItem>
+        <TranslationItem Name="Rescan" Property="Text">
+          <Value>Сохранить и пересканировать</Value>
+        </TranslationItem>
+        <TranslationItem Name="BrowseGitPath" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="label13" Property="Text">
+          <Value>Команда для вызова git (git.cmd или git.exe)</Value>
+        </TranslationItem>
+        <TranslationItem Name="BrowseGitBinPath" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="PlinkBrowse" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="PageantBrowse" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="PuttygenBrowse" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="OtherSshBrowse" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="EncodingLabel" Property="Text">
+          <Value>Кодировка</Value>
+        </TranslationItem>
+        <TranslationItem Name="AppearancePage" Property="Text">
+          <Value>Внешний вид</Value>
+        </TranslationItem>
+        <TranslationItem Name="groupBox4" Property="Text">
+          <Value>Граф ревизий</Value>
+        </TranslationItem>
+        <TranslationItem Name="label47" Property="Text">
+          <Value>дни</Value>
+        </TranslationItem>
+        <TranslationItem Name="label46" Property="Text">
+          <Value>Кешировать картинки</Value>
+        </TranslationItem>
+        <TranslationItem Name="groupBox8" Property="Text">
+          <Value>Окружение</Value>
+        </TranslationItem>
+        <TranslationItem Name="otherHomeBrowse" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="BranchBorders" Property="Text">
+          <Value>Рисовать границы веток</Value>
+        </TranslationItem>
+        <TranslationItem Name="scriptsTab" Property="Text">
+          <Value>Скрипты</Value>
+        </TranslationItem>
+        <TranslationItem Name="argumentsLabel" Property="Text">
+          <Value>Аргументы:</Value>
+        </TranslationItem>
+        <TranslationItem Name="saveScriptButton" Property="Text">
+          <Value>Сохранить</Value>
+        </TranslationItem>
+        <TranslationItem Name="removeScriptButton" Property="Text">
+          <Value>Удалить</Value>
+        </TranslationItem>
+        <TranslationItem Name="editScriptButton" Property="Text">
+          <Value>Редактировать</Value>
+        </TranslationItem>
+        <TranslationItem Name="addScriptButton" Property="Text">
+          <Value>Добавить</Value>
+        </TranslationItem>
+        <TranslationItem Name="columnHeader3" Property="Text">
+          <Value>Команда</Value>
+        </TranslationItem>
+        <TranslationItem Name="columnHeader4" Property="Text">
+          <Value>Аргументы</Value>
+        </TranslationItem>
+        <TranslationItem Name="columnHeader5" Property="Text">
+          <Value>Конекстное меню</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
+    <TranslationCategory Name="FormVerify">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Проверить базу</Value>
+        </TranslationItem>
+        <TranslationItem Name="SaveObjects" Property="Text">
+          <Value>Сохранить обьекты в .git/lost-found</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Клацните два раза по строке содержащей хеш sha1 для того чтобы просмотреть оьбект</Value>
+        </TranslationItem>
+        <TranslationItem Name="Remove" Property="Text">
+          <Value>Удалить все высящие объекты</Value>
+        </TranslationItem>
+        <TranslationItem Name="TagSelectedObject" Property="Text">
+          <Value>Пометить выбранный обюект</Value>
+        </TranslationItem>
+        <TranslationItem Name="ViewObject" Property="Text">
+          <Value>Просмотреть выбранный обьект</Value>
+        </TranslationItem>
+        <TranslationItem Name="TagAllObjects" Property="Text">
+          <Value>Пометить все потерянные обьекты</Value>
+        </TranslationItem>
+        <TranslationItem Name="DeleteAllLostAndFoundTags" Property="Text">
+          <Value>Удалить все метки LOST_AND_FOUND</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
     <TranslationCategory Name="AboutBox">
       <translationItems>
         <TranslationItem Name="$this" Property="Text">
           <Value>Фильтр</Value>
-        </TranslationItem>
-        <TranslationItem Name="label1" Property="Text">
-          <Value>Начиная с</Value>
-        </TranslationItem>
-        <TranslationItem Name="label2" Property="Text">
-          <Value>До</Value>
-        </TranslationItem>
-        <TranslationItem Name="label3" Property="Text">
-          <Value>Автор</Value>
-        </TranslationItem>
-        <TranslationItem Name="label5" Property="Text">
-          <Value>Сообщение</Value>
-        </TranslationItem>
-        <TranslationItem Name="label6" Property="Text">
-          <Value>Игнорировать регистр</Value>
-        </TranslationItem>
-        <TranslationItem Name="label8" Property="Text">
-          <Value>Фильра файлов</Value>
-        </TranslationItem>
-        <TranslationItem Name="label9" Property="Text">
-          <Value>Ветки</Value>
-        </TranslationItem>
-        <TranslationItem Name="CurrentBranchOnlyCheck" Property="Text">
-          <Value>Показывать только текущую ветку</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
