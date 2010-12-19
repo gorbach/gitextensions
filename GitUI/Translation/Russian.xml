@@ -29,6 +29,51 @@
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
+    <TranslationCategory Name="FormCheckout">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Получить ревизию</Value>
+        </TranslationItem>
+        <TranslationItem Name="Ok" Property="Text">
+          <Value>Получить</Value>
+        </TranslationItem>
+        <TranslationItem Name="Force" Property="Text">
+          <Value>Принудительно</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
+    <TranslationCategory Name="FormArchive">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Архив</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Выберите ревизию для сжатия</Value>
+        </TranslationItem>
+        <TranslationItem Name="Save" Property="Text">
+          <Value>Сохранить</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
+    <TranslationCategory Name="FormAddFiles">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Добавить файлы</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Фильтр</Value>
+        </TranslationItem>
+        <TranslationItem Name="AddFiles" Property="Text">
+          <Value>Добавить файлы</Value>
+        </TranslationItem>
+        <TranslationItem Name="ShowFiles" Property="Text">
+          <Value>Показать файлы</Value>
+        </TranslationItem>
+        <TranslationItem Name="force" Property="Text">
+          <Value>Принудительно</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
     <TranslationCategory Name="FormCommit">
       <translationItems>
         <TranslationItem Name="deleteFileToolStripMenuItem" Property="Text">
@@ -42,6 +87,30 @@
         </TranslationItem>
         <TranslationItem Name="resetSelectedFilesToolStripMenuItem" Property="Text">
           <Value>Сбросить выбранные файлы</Value>
+        </TranslationItem>
+        <TranslationItem Name="editGitIgnoreToolStripMenuItem" Property="Text">
+          <Value>Редактировать игнорируемые файлы</Value>
+        </TranslationItem>
+        <TranslationItem Name="Cancel" Property="Text">
+          <Value>Отмена</Value>
+        </TranslationItem>
+        <TranslationItem Name="CloseDialogAfterCommit" Property="Text">
+          <Value>Закрыть окно после коммита</Value>
+        </TranslationItem>
+        <TranslationItem Name="showIgnoredFilesToolStripMenuItem" Property="Text">
+          <Value>Показать игнорируемые файлы</Value>
+        </TranslationItem>
+        <TranslationItem Name="addFileTogitignoreToolStripMenuItem" Property="Text">
+          <Value>Добавить файлы в .gitignore</Value>
+        </TranslationItem>
+        <TranslationItem Name="rescanChangesToolStripMenuItem" Property="Text">
+          <Value>Сканировать изменения</Value>
+        </TranslationItem>
+        <TranslationItem Name="Scan" Property="Text">
+          <Value>Сканировать изменения</Value>
+        </TranslationItem>
+        <TranslationItem Name="Reset" Property="Text">
+          <Value>Отменить изменения</Value>
         </TranslationItem>
         <TranslationItem Name="openToolStripMenuItem" Property="Text">
           <Value>Открыть</Value>
@@ -60,11 +129,32 @@
 
 Выберите 'Нет' чтобы оставить все новые файлы.</Value>
         </TranslationItem>
+        <TranslationItem Name="_alsoDeleteUntrackedFilesCaption" Property="Text">
+          <Value>Удалить</Value>
+        </TranslationItem>
         <TranslationItem Name="_deleteFailed" Property="Text">
           <Value>Удаление файла не удалось</Value>
         </TranslationItem>
         <TranslationItem Name="_deleteSelectedFilesCaption" Property="Text">
           <Value>Удалить</Value>
+        </TranslationItem>
+        <TranslationItem Name="_enterCommitMessage" Property="Text">
+          <Value>Пожалуйста, введите сообщение для коммита</Value>
+        </TranslationItem>
+        <TranslationItem Name="_enterCommitMessageCaption" Property="Text">
+          <Value>Сообщение для коммита</Value>
+        </TranslationItem>
+        <TranslationItem Name="_enterCommitMessageHint" Property="Text">
+          <Value>Редактировать сообщение для коммита</Value>
+        </TranslationItem>
+        <TranslationItem Name="_mergeConflictsCaption" Property="Text">
+          <Value>Конфликты слияния</Value>
+        </TranslationItem>
+        <TranslationItem Name="_notOnBranchCaption" Property="Text">
+          <Value>Не на ветке.</Value>
+        </TranslationItem>
+        <TranslationItem Name="_resetChangesCaption" Property="Text">
+          <Value>Отменить изменения</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
