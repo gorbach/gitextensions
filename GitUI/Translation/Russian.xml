@@ -1,6 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Translation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <translationCategories>
+    <TranslationCategory Name="FormTag">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Метка</Value>
+        </TranslationItem>
+        <TranslationItem Name="_messageCaption" Property="Text">
+          <Value>Метка</Value>
+        </TranslationItem>
+        <TranslationItem Name="_noRevisionSelected" Property="Text">
+          <Value>Выберите 1 ревизию, которую хотите пометить</Value>
+        </TranslationItem>
+        <TranslationItem Name="_noTagMessage" Property="Text">
+          <Value>Введите сообщение метки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Название метки</Value>
+        </TranslationItem>
+        <TranslationItem Name="CreateTag" Property="Text">
+          <Value>Создать метку</Value>
+        </TranslationItem>
+        <TranslationItem Name="label2" Property="Text">
+          <Value>Сообщение</Value>
+        </TranslationItem>
+        <TranslationItem Name="annotate" Property="Text">
+          <Value>Создать аннотированную метку</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
     <TranslationCategory Name="FormCommit">
       <translationItems>
         <TranslationItem Name="deleteFileToolStripMenuItem" Property="Text">
@@ -233,6 +261,35 @@
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
+    <TranslationCategory Name="FormChooseTranslation">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Выбор языка</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Выберите язык</Value>
+        </TranslationItem>
+        <TranslationItem Name="label2" Property="Text">
+          <Value>Вы можете поменять язык в любое время в настройках программы</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
+    <TranslationCategory Name="Open">
+      <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Открыть репозиторий</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Папка</Value>
+        </TranslationItem>
+        <TranslationItem Name="Browse" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="Load" Property="Text">
+          <Value>Открыть</Value>
+        </TranslationItem>
+      </translationItems>
+    </TranslationCategory>
     <TranslationCategory Name="FindAndReplaceForm">
       <translationItems>
         <TranslationItem Name="$this" Property="Text">
@@ -272,6 +329,18 @@
     </TranslationCategory>
     <TranslationCategory Name="FormSettings">
       <translationItems>
+        <TranslationItem Name="$this" Property="Text">
+          <Value>Настройки</Value>
+        </TranslationItem>
+        <TranslationItem Name="LocalSettings" Property="Text">
+          <Value>Локальные настройки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label2" Property="Text">
+          <Value>Электронная почта</Value>
+        </TranslationItem>
+        <TranslationItem Name="label1" Property="Text">
+          <Value>Имя пользователя</Value>
+        </TranslationItem>
         <TranslationItem Name="GlobalSettingsPage" Property="Text">
           <Value>Глобальные настройки</Value>
         </TranslationItem>
@@ -313,6 +382,9 @@
         <TranslationItem Name="OtherSshBrowse" Property="Text">
           <Value>Обзор</Value>
         </TranslationItem>
+        <TranslationItem Name="BrowseMergeTool" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
         <TranslationItem Name="EncodingLabel" Property="Text">
           <Value>Кодировка</Value>
         </TranslationItem>
@@ -322,11 +394,98 @@
         <TranslationItem Name="groupBox4" Property="Text">
           <Value>Граф ревизий</Value>
         </TranslationItem>
+        <TranslationItem Name="label27" Property="Text">
+          <Value>Цвет удаленной строки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label31" Property="Text">
+          <Value>Цвет выделенной строки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label29" Property="Text">
+          <Value>Цвет добавленной строки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label33" Property="Text">
+          <Value>Цвет удаленной ветки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label36" Property="Text">
+          <Value>Цвет другой метки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label25" Property="Text">
+          <Value>Цвет метки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label32" Property="Text">
+          <Value>Цвет ветки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label30" Property="Text">
+          <Value>Сохранять копию (.orig) после слияния</Value>
+        </TranslationItem>
+        <TranslationItem Name="label28" Property="Text">
+          <Value>Сохранять копию (.orig) после слияния</Value>
+        </TranslationItem>
+        <TranslationItem Name="label37" Property="Text">
+          <Value>Показывать граф ревизий в логе коммитов</Value>
+        </TranslationItem>
+        <TranslationItem Name="label35" Property="Text">
+          <Value>Показывать коммандную строку git во время исполнения</Value>
+        </TranslationItem>
+        <TranslationItem Name="label34" Property="Text">
+          <Value>Закрывать диалог прогресса когда проецсс успешно завершился</Value>
+        </TranslationItem>
+        <TranslationItem Name="label39" Property="Text">
+          <Value>Показывать относительные даты вместо полных</Value>
+        </TranslationItem>
+        <TranslationItem Name="label38" Property="Text">
+          <Value>Использовать FileSystemWatcher для уведомлений об изменении index</Value>
+        </TranslationItem>
+        <TranslationItem Name="label40" Property="Text">
+          <Value>Показывать переименования в истории файла (эксперементально)</Value>
+        </TranslationItem>
+        <TranslationItem Name="BrowseDiffTool" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="groupBox5" Property="Text">
+          <Value>Иконка приложения</Value>
+        </TranslationItem>
+        <TranslationItem Name="GreenIcon" Property="Text">
+          <Value>Зеленый</Value>
+        </TranslationItem>
+        <TranslationItem Name="PurpleIcon" Property="Text">
+          <Value>Пурпурный</Value>
+        </TranslationItem>
+        <TranslationItem Name="BlueIcon" Property="Text">
+          <Value>Синий</Value>
+        </TranslationItem>
+        <TranslationItem Name="DefaultIcon" Property="Text">
+          <Value>По умолчанию</Value>
+        </TranslationItem>
+        <TranslationItem Name="YellowIcon" Property="Text">
+          <Value>Желтый</Value>
+        </TranslationItem>
+        <TranslationItem Name="RedIcon" Property="Text">
+          <Value>Красный</Value>
+        </TranslationItem>
+        <TranslationItem Name="RandomIcon" Property="Text">
+          <Value>Случайно</Value>
+        </TranslationItem>
+        <TranslationItem Name="label44" Property="Text">
+          <Value>Размер картинки</Value>
+        </TranslationItem>
+        <TranslationItem Name="StartPage" Property="Text">
+          <Value>Начальная страница</Value>
+        </TranslationItem>
         <TranslationItem Name="label47" Property="Text">
           <Value>дни</Value>
         </TranslationItem>
         <TranslationItem Name="label46" Property="Text">
           <Value>Кешировать картинки</Value>
+        </TranslationItem>
+        <TranslationItem Name="label49" Property="Text">
+          <Value>Язык (необходим перезапуск)</Value>
+        </TranslationItem>
+        <TranslationItem Name="helpTranslate" Property="Text">
+          <Value>Помочь перевести</Value>
+        </TranslationItem>
+        <TranslationItem Name="MulticolorBranches" Property="Text">
+          <Value>Многоцветные ветки</Value>
         </TranslationItem>
         <TranslationItem Name="groupBox8" Property="Text">
           <Value>Окружение</Value>
@@ -334,14 +493,35 @@
         <TranslationItem Name="otherHomeBrowse" Property="Text">
           <Value>Обзор</Value>
         </TranslationItem>
+        <TranslationItem Name="otherHome" Property="Text">
+          <Value>Другой</Value>
+        </TranslationItem>
         <TranslationItem Name="BranchBorders" Property="Text">
           <Value>Рисовать границы веток</Value>
+        </TranslationItem>
+        <TranslationItem Name="groupBox9" Property="Text">
+          <Value>Окончания строк</Value>
+        </TranslationItem>
+        <TranslationItem Name="groupBox10" Property="Text">
+          <Value>Окончания строк</Value>
         </TranslationItem>
         <TranslationItem Name="scriptsTab" Property="Text">
           <Value>Скрипты</Value>
         </TranslationItem>
         <TranslationItem Name="argumentsLabel" Property="Text">
           <Value>Аргументы:</Value>
+        </TranslationItem>
+        <TranslationItem Name="commandLabel" Property="Text">
+          <Value>Комманда:</Value>
+        </TranslationItem>
+        <TranslationItem Name="nameLabel" Property="Text">
+          <Value>Название:</Value>
+        </TranslationItem>
+        <TranslationItem Name="browseScriptButton" Property="Text">
+          <Value>Обзор</Value>
+        </TranslationItem>
+        <TranslationItem Name="cancelScriptButton" Property="Text">
+          <Value>Отмена</Value>
         </TranslationItem>
         <TranslationItem Name="saveScriptButton" Property="Text">
           <Value>Сохранить</Value>
@@ -355,6 +535,9 @@
         <TranslationItem Name="addScriptButton" Property="Text">
           <Value>Добавить</Value>
         </TranslationItem>
+        <TranslationItem Name="columnHeader2" Property="Text">
+          <Value>Название</Value>
+        </TranslationItem>
         <TranslationItem Name="columnHeader3" Property="Text">
           <Value>Команда</Value>
         </TranslationItem>
@@ -363,6 +546,9 @@
         </TranslationItem>
         <TranslationItem Name="columnHeader5" Property="Text">
           <Value>Конекстное меню</Value>
+        </TranslationItem>
+        <TranslationItem Name="helpLabel" Property="Text">
+          <Value>Нажмите F1 для того чтобы увидеть все доступные опции</Value>
         </TranslationItem>
       </translationItems>
     </TranslationCategory>
