@@ -4,6 +4,8 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Web;
+using LibGit2Sharp;
+using LibGit2Sharp.Core;
 
 namespace GitCommands
 {
@@ -113,9 +115,26 @@ namespace GitCommands
             if (sha1 == null)
                 throw new ArgumentNullException("sha1");
 
+            using (var repo = new LibGit2Sharp.Repository(module.WorkingDir))
+            {
+                //TODO: add error handling
+                return CreateFromFormatedData2(repo.Lookup<LibGit2Sharp.Commit>(sha1));
+            }
+        }
+
+        /// <summary>
+        /// Gets the commit info for submodule.
+        /// </summary>
+        public static CommitData GetCommitDataOld(GitModule module, string sha1, ref string error)
+        {
+            if (module == null)
+                throw new ArgumentNullException("module");
+            if (sha1 == null)
+                throw new ArgumentNullException("sha1");
+
             //Do not cache this command, since notes can be added
             string arguments = string.Format(CultureInfo.InvariantCulture,
-                    "log -1 --pretty=\"format:"+LogFormat+"\" {0}", sha1);
+                    "log -1 --pretty=\"format:" + LogFormat + "\" {0}", sha1);
             var info =
                 module.RunCmd(
                     Settings.GitCommand,
@@ -201,6 +220,31 @@ namespace GitCommands
 
             var commitInformation = new CommitData(guid, treeGuid, parentGuids, author, authorDate,
                 committer, commitDate, body);
+
+            return commitInformation;
+        }
+
+        /// <summary>
+        /// Creates a CommitData object from formated commit info data from git.  The string passed in should be
+        /// exact output of a log or show command using --format=LogFormat.
+        /// </summary>
+        /// <param name="data">Formated commit data from git.</param>
+        /// <returns>CommitData object populated with parsed info from git string.</returns>
+        public static CommitData CreateFromFormatedData2(LibGit2Sharp.Commit commit)
+        {
+            if (commit == null)
+                throw new ArgumentNullException("commit");
+
+            var author = string.Format("{0} <{1}>", commit.Author.Name, commit.Author.Email);
+            var authorDate = commit.Author.When;
+
+            var committer = string.Format("{0} <{1}>", commit.Committer.Name, commit.Committer.Email); ;
+            var commitDate = commit.Committer.When;
+
+            var body = commit.Message;
+
+            var parents = commit.Parents.Select(p => p.Sha).ToList().AsReadOnly();
+            var commitInformation = new CommitData(commit.Sha, commit.Tree.Sha, parents, author, authorDate, committer, commitDate, body);
 
             return commitInformation;
         }
