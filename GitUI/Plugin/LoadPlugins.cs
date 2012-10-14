@@ -4,11 +4,18 @@ using System.IO;
 using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
+using System.Linq;
 
 namespace GitUI
 {
     internal static class PluginLoader
     {
+        private static readonly string[] ExcluedFiles = new[]
+            {
+                "Microsoft.WindowsAPICodePack.dll",
+                "Microsoft.WindowsAPICodePack.Shell.dll",
+                "git2.dll"
+            };
         public static void Load()
         {
             lock (GitUI.Plugin.LoadedPlugins.Plugins)
@@ -29,13 +36,8 @@ namespace GitUI
                                    : new FileInfo[] { };
 #endif
 
-                foreach (var pluginFile in plugins)
+                foreach (var pluginFile in plugins.Where(pluginFile => !ExcluedFiles.Contains(pluginFile.Name)))
                 {
-                    if (pluginFile.FullName.Contains("Microsoft.WindowsAPICodePack"))
-                    {
-                        continue;
-                    }
-
                     try
                     {
                         var types = Assembly.LoadFile(pluginFile.FullName).GetTypes();
